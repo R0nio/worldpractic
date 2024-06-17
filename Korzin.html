@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleKorzin.css">
+    <title>Корзина</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="img/logo.svg" alt="1">
+            <div class="head-flex">
+                <p>площадь Революции, г. Челябинск</p>
+                <div class="head-img">
+                    <a href="https://vk.com/krugosvetka_ural" target="_blank">
+                        <img src="img/Vk.svg" alt="2">
+                    </a>
+                    <a href="https://ok.ru/profile/16606458438?utm_campaign=mobile_share&utm_content=profile" target="_blank">
+                        <img src="img/odnorl.svg" alt="3">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-head-nav">
+                <a href="Maphut.html">Маршруты</a>
+                <a href="About.html">О нас</a>
+                <a href="">Статьи</a>
+                <a href="">Контакты</a>
+                <a href="Korzin.html">Корзина</a>
+                <a href="">Избранное</a>
+                <a href="">Профиль</a>
+            </div>
+
+
+            <h1 class="titleh1">Корзина</h1>
+            <div class="navig">
+                <button class="b">
+                    <a id="neoplat" class="activ">Забронированные</a>
+                </button>
+                <button class="b2">
+                    <a id="oplat" class="noactiv">Оплаченные</a>
+                </button>
+            </div>
+            <div class="Cardpay">
+                <div class="Cards">
+                <div class="card">
+                    <img src="img/Cardpic1.svg" alt="a">
+                    <div class="component">
+                        <p class="titlecomponent">Музей Бажова, фарфоровый <br>завод, Сысерть</p>
+                        <div class="card-component">
+                            <div class="card-left">
+                                <p class="text-card-left">экскурсия</p>
+                                <div class="mesto">
+                                    <div class="card-time">
+                                        <img src="img/time.svg" alt="b">
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="card-why-time">
+                                        <img src="img/locati.svg" alt="c">
+                                        <p>5 мест</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-right">
+                                <h1>2550 руб.</h1>
+                                <button>Забронировано</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card two">
+                    <img src="img/Cardpic2.svg" alt="d">
+                    <div class="component">
+                    <p class="titlecomponent">Колокольня, Семибратка, Златоуст</p>
+                    <div class="card-component">
+                        <div class="card-left">
+                                <p class="text-card-left">экскурсия</p>
+                                <div class="mesto">
+                                    <div class="card-time">
+                                        <img src="img/time.svg" alt="f">
+                                        <p>1 день</p>
+                                    </div>
+                                    <div class="card-why-time">
+                                        <img src="img/locati.svg" alt="g">
+                                        <p>3 мест</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-right">
+                                <h1>1850 руб.</h1>
+                                <button>Забронировано</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="countcard">
+                    <div class="left-text">
+                        <p>2 товара</p>
+                        <h1>Итого:</h1>
+                    </div>
+                    <div class="right-text">
+                        <h1>4400 руб.</h1>
+                        <button class="open-popup">Оплатить</button>
+                    </div>
+                </div>
+                <div class="chbtn">       
+                    <div class="popup__bg "> 
+                        <form class="popup ">
+                            <div class="boxform">
+                                <h1>Оплата</h1>
+                                <div class="form">
+                                    <div class="leftblo">
+                                        <div class="mycard">
+                                            <p>Мои карты</p>
+                                            <div class="dropdown">
+                                                <button class="dropbtn"><img src="img/Vector.svg" alt=""></button>
+                                                <div class="dropdown-content">
+                                                <a href="#">Нету карт</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="numbercard">
+                                            <p>Номер карты</p>
+                                            <input type="number" name="" id="">
+                                        </div>
+                                        <div class="datesroc-cvc">
+                                            <div class="datesroc">
+                                                <p>Срок действия</p>
+                                                <input type="number" name="" id="">
+                                            </div>
+                                            <div class="CVC">
+                                                <p>CVC</p>
+                                                <input type="number" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="check">
+                                            <div class="checkb">
+                                                <input type="checkbox" class="rounded-checkbox" id="checkbox">
+                                            </div>
+                                            <p>Запомнить карту</p>
+                                        </div>
+                                    </div>
+                                    <div class="rightblo">
+                                        <div class="top-text">
+                                            <div class="text1">
+                                                <p>Музей Бажова, фарфоровый <br>завод, Сысерть</p>
+                                                <p>2550 руб.</p>
+                                            </div>
+                                            <div class="text2">
+                                                <p>Колокольня, Семибратка, <br>Златоуст</p>
+                                                <p>1850 руб.</p>
+                                            </div>
+                                        </div>
+                                        <div class="down-bloc">
+                                            <div class="price">
+                                                <h1>Итого:</h1>
+                                                <h1>4400 руб.</h1>
+                                            </div>
+                                            <button>Оплатить</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>  
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="img/logofoot.svg" alt="6">
+            <a href="">Маршруты</a>
+            <div class="footer-one-column">
+                <a href="">О нас</a>
+                <a href="">Статьи</a>
+                <a href="">Контакты</a>
+            </div>
+            <div class="footer-two-column">
+                <a href="">Профиль</a>
+                <a href="">Корзина</a>
+                <a href="">Избранное</a>
+            </div>
+            <div class="footer-img">
+                <a href="https://vk.com/krugosvetka_ural" target="_blank">
+                    <img src="img/Vk.svg" alt="7">
+                </a>
+                <a href="https://ok.ru/profile/16606458438?utm_campaign=mobile_share&utm_content=profile" target="_blank">
+                    <img src="img/odnorl.svg" alt="8">
+                </a>
+                <a href="https://t.me/krugosvetka_74" target="_blank">
+                    <img src="img/telegram.svg" alt="9">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/javascript.js"></script>
+    <script src="script/js2.js"></script>
+</body>
+</html>
+
+    
